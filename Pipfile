@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+coverage = ">=5.0"
+pytest-cov = ">=2.7.0"
+coveralls = ">=2.1.2"
+debugpy = "*"
+
+[requires]
+python_version = "3.9"
